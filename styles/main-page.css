@@ -1,0 +1,136 @@
+html {
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  background-color: rgba(238, 139, 9, 0.973);
+  margin: 0;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+}
+
+#vertical-frame-container {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+}
+
+#top-frame-box {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 30px;
+  background-color: black;
+}
+
+#bottom-frame-box {
+  position: fixed;
+  bottom: 0;
+  margin-top: 90vh;
+  width: 100vw;
+  height: 30px;
+  background-color: black;
+}
+
+#left-frame-box {
+  position: fixed;
+  left: 0;
+  width: 30px;
+  height: 100vh;
+  background-color: black;
+}
+
+#right-frame-box {
+  position: fixed;
+  right: 0;
+  margin-left: 128.5vh;
+  width: 30px;
+  height: 100vh;
+  background-color: black;
+}
+
+#menu-button-container {
+  position: fixed;
+  left: 0;
+  margin-top: 200px;
+  margin-left: 150px;
+}
+
+#menu-button-element {
+  background-color: rgba(57, 221, 120, 0.788);
+  border: 5px solid black;
+  width: 150px;
+  height: 30px;
+}
+
+#change-language-button-container {
+  position: fixed;
+  right: 0;
+  margin-top: 60px;
+  margin-right: 60px;
+}
+
+#change-language-button-element {
+  background-color: red;
+  width: 60px;
+  height: 30px;
+  border: none;
+  color: white;
+}
+
+#castle-container {
+  position: fixed;
+  top: 0;
+  margin-top: 100px;
+  background-color: blueviolet;
+  gap: 10px;
+}
+
+#main-tower-container {
+  position: fixed;
+  margin-left: 45%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#flag-box {
+}
+
+#roof-box {
+}
+
+#tower-box {
+  margin-top: 26%;
+  width: 200px;
+  height: 600px;
+  background-color: darkgreen;
+}
+
+#first-window-box {
+}
+
+#second-window-box {
+}
+
+#first-candle-box {
+}
+
+#second-candle-box {
+}
+
+#gate-container {
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 30px;
+  background-color: brown;
+  width: 800px;
+  height: 200px;
+  margin-left: 20%;
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+}
